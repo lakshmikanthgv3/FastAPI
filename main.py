@@ -25,7 +25,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 @app.get("/")
 def test(request:Request):
-    return RedirectResponse(url='/exam/exam-page', status_code=status.HTTP_302_FOUND)
+    return RedirectResponse(url='/auth/login-page', status_code=status.HTTP_302_FOUND)
 
 
 @app.get("/healthy", status_code = status.HTTP_200_OK)

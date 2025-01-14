@@ -4,7 +4,7 @@ from sqlalchemy.orm import declarative_base
 
 
 
-DATABASE_URL = 'postgresql://todoapplicationdatabase_bz6l_user:UI08095hltqURTWPA671ej8nhNCd5bFc@dpg-cu34b39opnds7381rm80-a/todoapplicationdatabase_bz6l'
+DATABASE_URL = 'postgresql://todoapplicationdatabase_bz6l_user:UI08095hltqURTWPA671ej8nhNCd5bFc@dpg-cu34b39opnds7381rm80-a.oregon-postgres.render.com/todoapplicationdatabase_bz6l'
 # DATABASE_URL = 'mysql+pymysql://root:1bh14me027@127.0.0.1:3307/todoapplicationdatabase'
 
 
